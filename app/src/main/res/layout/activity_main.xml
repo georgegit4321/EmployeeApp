@@ -1,0 +1,108 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F8CA87"
+    android:orientation="vertical"
+    android:padding="50px"
+   android:gravity="center">
+
+    <ImageView
+        android:layout_width="290sp"
+        android:layout_height="200sp"
+        android:background="@drawable/emp1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="employee code :"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee code"
+        android:layout_margin="10px"
+        android:textSize="18sp"
+        android:textColorHint="@color/cardview_dark_background"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:layout_margin="10px"
+        android:textSize="18sp"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="company name :"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter company name :"
+        android:layout_margin="10px"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/cardview_dark_background"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="salary :"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter salary"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:layout_margin="10px"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/cardview_dark_background"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mob no :"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter mob no"
+        android:inputType="number"
+        android:layout_margin="10px"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/cardview_dark_background"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_margin="10px"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"
+        android:id="@+id/reg"/>
+
+</LinearLayout>
